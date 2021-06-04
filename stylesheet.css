@@ -1,0 +1,350 @@
+
+.background {
+    background: url(images/background-tent-new.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+    background-position-x: 50%;
+}
+
+.main-container {
+/*    width: 600px;*/
+    margin: 0 auto;
+    text-align: -webkit-center;
+}
+
+.button-group {
+    margin-top: 500px;
+}
+
+.socials-group,button {
+    width: 220px;
+}
+
+button {
+    transition: all 0.3s;
+    display: block;
+    height: 50px;
+/*    width: 220px;*/
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Django';
+    font-size: 2.2em;
+    color: white;
+    text-shadow: 2px 2px #1f1f1fd4;
+    box-shadow: 2px 3px black;
+    cursor: pointer;
+}
+button:hover {
+    height: 54px;
+    width: 230px;
+    font-size: 2.4em;
+    color: #b5b8ff;
+}
+
+.merch-button {
+    filter:  sepia(100%) saturate(100%) brightness(97%) hue-rotate(199deg);
+}
+
+.socials-group {
+/*    width: 220px;*/
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+}
+.socials-group button {
+    height: 50px;
+    width: 56px;
+    padding-top: 6px;
+    padding-left: 0;
+    padding-right: 0;
+    transition: all 0.1s;
+}
+.socials-group button:hover {
+    filter: saturate(100%) brightness(88%);
+    transition: all 0.1s;
+}
+.socials-icons {
+    height: 30px;
+}
+.twitter-icon {
+    width: 36px;
+}
+
+/*
+@media only screen and (max-height: 915px) {
+  .background {
+    background-size: 114%;
+      background-position-y: -110px;
+  }
+    .button-group {
+        margin-top: 466px;
+    }
+}
+*/
+@media only screen and (max-width: 2020px) {
+    .background {
+        background-size: 114%;
+        background-position-y: -70px;
+    }
+    .button-group {
+        margin-top: 530px;
+    }
+}
+@media only screen and (max-width: 1800px) {
+    .background {
+        background-size: 120%;
+        background-position-y: -70px;
+    }
+    .button-group {
+        margin-top: 530px;
+    }
+}
+@media only screen and (max-width: 1715px) {
+    .background {
+        background-size: 127%;
+        background-position-y: -70px;
+    }
+    .button-group {
+        margin-top: 530px;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .background {
+        background-size: 138%;
+        background-position-y: -70px;
+    }
+}
+@media only screen and (max-width: 1460px) {
+  .background {
+    background-size: 143%;
+      background-position-y: -70px;
+  }
+}
+@media only screen and (max-width: 1406px) {
+  .background {
+        background-size: 157%;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .background {
+        background-size: 175%;
+  }
+}
+@media only screen and (max-width: 1132px) {
+  .background {
+        background-size: 198%;
+/*    background-position-y: -64px;*/
+  }
+}
+@media only screen and (max-width: 1016px) {
+  .background {
+        background-size: 219%;
+  }
+        button {
+        height: 38px;
+/*        width: 185px;*/
+        margin-bottom: 9px;
+        font-size: 1.9em;
+    }
+    .socials-group,button {
+    width: 185px;
+    }
+    button:hover {
+        height: 44px;
+        width: 195px;
+        font-size: 2.1em;
+    }
+    .socials-group button {
+        height: 42px;
+        width: 49px;
+    }
+    .socials-icons {
+        height: 28px;
+    }
+    .twitter-icon {
+        width: 32px;
+    }
+}
+@media only screen and (max-width: 910px) {
+  .background {
+        background-size: 246%;
+  }
+}
+@media only screen and (max-width: 812px) {
+  .background {
+        background-size: 271%;
+  }
+}
+@media only screen and (max-width: 734px) {
+  .background {
+        background-size: 300%;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .background {
+        background-size: 330%;
+  }
+}
+@media only screen and (max-width: 612px) {
+  .background {
+        background-size: 350%;
+  }
+}
+@media only screen and (max-width: 528px) {
+  .background {
+        background: url(images/background-tent.jpg);
+      background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+    .socials-group,button {
+        width: 162px;
+    }
+}
+@media only screen and (max-width: 420px) {
+  .background {
+        background: url(images/background-tent.jpg);
+      background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+
+/*
+@media only screen and (max-height: 980px) {
+    .button-group {
+        margin-top: 500px;
+    }
+}
+*/
+/*
+@media only screen and (max-height: 890px) {
+    .button-group {
+        margin-top: 470px;
+    }
+}
+*/
+@media only screen and (max-height: 860px) {
+    .background {
+        background: url(images/background-tent-new.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+  }
+    .button-group {
+        margin-top: 430px;
+    }
+    .socials-group,button {
+        width: 162px;
+    }
+}
+
+@media only screen and (max-height: 760px) {
+    .button-group {
+        margin-top: 395px;
+    }
+}
+
+@media only screen and (max-height: 860px) and (min-width: 1017px) {
+        button {
+        height: 38px;
+/*        width: 185px;*/
+        margin-bottom: 9px;
+        font-size: 1.9em;
+    }
+    .socials-group,button {
+        width: 162px;
+    }
+    button:hover {
+        height: 44px;
+        width: 195px;
+        font-size: 2.1em;
+    }
+    .socials-group button {
+        height: 46px;
+        width: 51px;
+    }
+}
+
+/*
+@media only screen and (min-device-height: 825px) and (max-device-width: 618px) {
+    .button-group {
+        margin-top: 485px;
+    }
+}
+*/
+/*
+@media only screen and (max-height: 813px) and (max-width: 380px) {
+    .main-container {
+        width: 100%;
+    }
+  .background {
+      background: url(images/background-tent-iphoneX.jpg);
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position-x: 39%;
+      background-position-y: 14%;
+  }
+    .button-group {
+        margin-top: 427px;
+    }
+    button {
+        height: 38px;
+    }
+    .socials-group,button {
+        width: 178px;
+    }
+}
+*/
+/*iphone XR */
+/*
+@media only screen and (max-height: 900px) and (min-height: 896px) and (max-width: 425px) and (min-width: 414px) {
+    .button-group {
+        margin-top: 478px
+    }
+    button {
+        height: 40px
+    }
+}
+*/
+
+/*iphone 8 */
+@media only screen and (max-height: 670px) and (max-width: 415px) {
+    .background {
+        background: url(images/background-tent.jpg);
+        background-repeat: no-repeat;
+        background-position: center -136px;
+        background-attachment: fixed;
+        background-size: 385%;
+    }
+    .button-group {
+        margin-top: 295px;
+    }
+}
+@media only screen and (max-height: 600px) and (max-width: 415px) {
+    .background {
+        background: url(images/background-tent.jpg);
+        background-repeat: no-repeat;
+        background-position: center -136px;
+        background-attachment: fixed;
+        background-size: 358%;
+    }
+    .button-group {
+        margin-top: 268px;
+    }
+}
+
+
+@font-face {
+    font-family: 'Adler'; /*a name to be used later*/
+    src: url(fonts/adler.regular.ttf); /*URL to font*/
+}
+@font-face {
+    font-family: 'Django'; /*a name to be used later*/
+    src: url(fonts/Black-Django.otf); /*URL to font*/
+}
