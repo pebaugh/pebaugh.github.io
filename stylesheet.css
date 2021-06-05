@@ -8,7 +8,6 @@
 }
 
 .main-container {
-/*    width: 600px;*/
     margin: 0 auto;
     text-align: -webkit-center;
 }
@@ -25,7 +24,6 @@ button {
     transition: all 0.3s;
     display: block;
     height: 50px;
-/*    width: 220px;*/
     margin-bottom: 10px;
     border-radius: 5px;
     border: none;
@@ -48,7 +46,6 @@ button:hover {
 }
 
 .socials-group {
-/*    width: 220px;*/
     display: inline-flex;
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
@@ -72,17 +69,7 @@ button:hover {
     width: 36px;
 }
 
-/*
-@media only screen and (max-height: 915px) {
-  .background {
-    background-size: 114%;
-      background-position-y: -110px;
-  }
-    .button-group {
-        margin-top: 466px;
-    }
-}
-*/
+
 @media only screen and (max-width: 2020px) {
     .background {
         background-size: 114%;
@@ -118,6 +105,7 @@ button:hover {
 }
 @media only screen and (max-width: 1460px) {
   .background {
+      background: url(images/background-tent-new-1500.jpg);
     background-size: 143%;
       background-position-y: -70px;
   }
@@ -144,7 +132,6 @@ button:hover {
   }
         button {
         height: 38px;
-/*        width: 185px;*/
         margin-bottom: 9px;
         font-size: 1.9em;
     }
@@ -169,6 +156,7 @@ button:hover {
 }
 @media only screen and (max-width: 910px) {
   .background {
+      background: url(images/background-tent-new-1000.jpg);
         background-size: 246%;
   }
 }
@@ -214,20 +202,6 @@ button:hover {
   }
 }
 
-/*
-@media only screen and (max-height: 980px) {
-    .button-group {
-        margin-top: 500px;
-    }
-}
-*/
-/*
-@media only screen and (max-height: 890px) {
-    .button-group {
-        margin-top: 470px;
-    }
-}
-*/
 @media only screen and (max-height: 860px) {
     .background {
         background: url(images/background-tent-new.jpg);
@@ -253,7 +227,6 @@ button:hover {
 @media only screen and (max-height: 860px) and (min-width: 1017px) {
         button {
         height: 38px;
-/*        width: 185px;*/
         margin-bottom: 9px;
         font-size: 1.9em;
     }
@@ -270,48 +243,6 @@ button:hover {
         width: 51px;
     }
 }
-
-/*
-@media only screen and (min-device-height: 825px) and (max-device-width: 618px) {
-    .button-group {
-        margin-top: 485px;
-    }
-}
-*/
-/*
-@media only screen and (max-height: 813px) and (max-width: 380px) {
-    .main-container {
-        width: 100%;
-    }
-  .background {
-      background: url(images/background-tent-iphoneX.jpg);
-        background-size: cover;
-      background-repeat: no-repeat;
-      background-position-x: 39%;
-      background-position-y: 14%;
-  }
-    .button-group {
-        margin-top: 427px;
-    }
-    button {
-        height: 38px;
-    }
-    .socials-group,button {
-        width: 178px;
-    }
-}
-*/
-/*iphone XR */
-/*
-@media only screen and (max-height: 900px) and (min-height: 896px) and (max-width: 425px) and (min-width: 414px) {
-    .button-group {
-        margin-top: 478px
-    }
-    button {
-        height: 40px
-    }
-}
-*/
 
 /*iphone 8 */
 @media only screen and (max-height: 670px) and (max-width: 415px) {
