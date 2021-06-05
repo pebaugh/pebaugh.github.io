@@ -105,7 +105,7 @@ button:hover {
 }
 @media only screen and (max-width: 1460px) {
   .background {
-      background: url(images/background-tent-new-1500.jpg);
+/*      background: url(images/background-tent-new-1500.jpg);*/
     background-size: 143%;
       background-position-y: -70px;
   }
@@ -156,7 +156,7 @@ button:hover {
 }
 @media only screen and (max-width: 910px) {
   .background {
-      background: url(images/background-tent-new-1000.jpg);
+/*      background: url(images/background-tent-new-1000.jpg);*/
         background-size: 246%;
   }
 }
@@ -182,7 +182,7 @@ button:hover {
 }
 @media only screen and (max-width: 528px) {
   .background {
-        background: url(images/background-tent1.jpg);
+        background: url(images/background-tent.jpg);
       background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -194,7 +194,7 @@ button:hover {
 }
 @media only screen and (max-width: 420px) {
   .background {
-        background: url(images/background-tent1.jpg);
+        background: url(images/background-tent.jpg);
       background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -247,7 +247,7 @@ button:hover {
 /*iphone 8 */
 @media only screen and (max-height: 670px) and (max-width: 415px) {
     .background {
-        background: url(images/background-tent1.jpg);
+        background: url(images/background-tent.jpg);
         background-repeat: no-repeat;
         background-position: center -136px;
         background-attachment: fixed;
@@ -259,7 +259,7 @@ button:hover {
 }
 @media only screen and (max-height: 600px) and (max-width: 415px) {
     .background {
-        background: url(images/background-tent1.jpg);
+        background: url(images/background-tent.jpg);
         background-repeat: no-repeat;
         background-position: center -136px;
         background-attachment: fixed;
