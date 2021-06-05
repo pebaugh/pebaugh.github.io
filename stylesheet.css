@@ -204,7 +204,7 @@ button:hover {
 
 @media only screen and (max-height: 860px) {
     .background {
-        background: url(images/background-tent-new.jpg);
+/*        background: url(images/background-tent-new.jpg);*/
         background-repeat: no-repeat;
         background-position: center center;
         background-attachment: fixed;
